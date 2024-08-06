@@ -1,0 +1,29 @@
+{
+  "name": "netbeans-flatlaf-dark-theme-w77",
+  "displayName": "NetBeans FlatLaf Dark Theme W77",
+  "description": "Dark theme for VS code like FlatLaf in NetBeans",
+  "publisher": "W77",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "repository": {
+    "url": "https://github.com/wojtek77/netbeans-flatlaf-dark-theme-w77"
+  },
+  "bugs": {
+    "url": "https://github.com/wojtek77/netbeans-flatlaf-dark-theme-w77/issues"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "w77.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "NetBeans FlatLaf Dark Theme W77",
+        "uiTheme": "vs-dark",
+        "path": "./themes/netbeans-flatlaf-dark-theme.json"
+      }
+    ]
+  }
+}
